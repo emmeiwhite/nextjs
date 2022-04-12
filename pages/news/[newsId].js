@@ -7,7 +7,7 @@ function DynamicPage() {
   console.log(newsId);
   // send a request to the backend API
   // to fetch the news item with newsId
-  return <h1>This is a Dynamic Page !!!</h1>;
+  return <h1>This is a {newsId && newsId} Page !!!</h1>;
 }
 
 export default DynamicPage;
